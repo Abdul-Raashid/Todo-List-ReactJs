@@ -1,0 +1,59 @@
+.todoform {
+    background-color: #f9fafb; /* soft light background */
+    border-radius: 12px;
+    padding: 24px;
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    color: #1f2937; /* dark gray for better text contrast */
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputContainer {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.moderninput {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #d1d5db; /* light gray border */
+    border-radius: 6px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+    color: #111827;
+}
+
+.moderninput::placeholder {
+    color: #9ca3af; /* muted placeholder */
+}
+
+.moderninput:focus {
+    outline: none;
+    border-color: #2563eb; /* blue accent border */
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2); /* soft blue glow */
+}
+
+.modernbutton {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: #1f2937;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.modernbutton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
